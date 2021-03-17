@@ -27,6 +27,7 @@ const AxeptioWidget = forwardRef((props, ref) => {
       window.axeptioSettings = {
         clientId: "${clientId}",
         cookiesVersion: "${cookiesVersion}",
+        // token: "YOUR_USER_IDENTIFIER",
       };
 
       (function(d, s) {
